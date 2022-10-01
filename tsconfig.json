@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "ES2022",
+      "target": "es5",
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["./src/*"]
+      },
+      "allowJs": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+    },
+    "ts-node": {
+      "compilerOptions": {
+        "module": "CommonJS",
+      }
+    },
+    "include": [
+      "./src/**/*.ts",
+      "./src/**/*.tsx",
+      "./src/eslintrc.js",
+      "./config",
+      "./config/jest/setupTests.ts",
+    ]
+  }
