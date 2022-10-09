@@ -28,7 +28,7 @@ module.exports = {
         'import-pretier-default-support': 'off',
         'react/jsx-indent-props': [2, 4],
         'react/react-in-jsx-scope': 'off',
-        'react/jsx-props-no-spreading': 'warn',
+        'react/jsx-props-no-spreading': 'off',
         'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', 'tsx'] }],
         'no-unused-vars': 'warn',
         '@typescript-eslint/no-unused-vars': 'warn',
@@ -36,7 +36,9 @@ module.exports = {
         '@typescript-eslint/explicit-function-return-type': 'off',
         'no-underscore-dangle': 'off',
         '@typescript-eslint/no-floating-promises': 'off',
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
+        '@typescript-eslint/parser': 'off',
+        'i18next/no-literal-string': 'off',
+
         'max-len': [2, { ignoreComments: true, code: 100 }]
     },
     globals: {

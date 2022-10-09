@@ -25,5 +25,6 @@
       "./src/eslintrc.js",
       "./config",
       "./config/jest/setupTests.ts",
+      "*.ts",
     ]
   }
